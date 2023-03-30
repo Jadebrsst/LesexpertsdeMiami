@@ -1,0 +1,81 @@
+h2{
+    color:pink;
+    text-shadow: 0 0 10px rgba(40, 40, 40, 0.5);
+    font-size: 60px;
+    margin:0;
+    text-align: center;
+}
+h1 {
+color:papayawhip;
+font-family: 'Lobster', cursive;
+font-weight: 900;
+font-size: 100px;
+text-align: center;
+}
+
+ol {
+background-image: url("images/image.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+width:100vw;
+padding: 100px 0;
+text-align: center;
+}
+
+body {
+background-color:rgba(60, 217, 165, 0.859);
+}
+:root {
+    scroll-behavior: smooth;
+}
+
+.video-left {
+margin-left: -50vw;
+}
+.grille {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    margin: 0 auto 300px;
+    width: 75vw;
+    object-fit: cover;
+}
+
+.vignettes {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transition: all 250ms ease;
+}
+.vignettes:hover {
+    opacity: 0;
+}
+.z-index-1 {
+    z-index: -1;
+}
+p {
+    color: white;
+width: 50px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mono-font {
+    font-family: 'Monoton', cursive;
+}
